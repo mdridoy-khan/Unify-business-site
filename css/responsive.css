@@ -8,6 +8,41 @@
 /* Normal desktop(lg) :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+.protfolio-text {
+    top: 100px;
+}
+.btn-down {
+	font-size: 12px;
+	padding: 12px 35px;
+}
+.about-img a::before {
+	top: 133px;
+	right: -88px;
+}
+.single-creative > a::before {
+	top: 215px;
+}
+.test-img img {
+	margin-top: 95px;
+}
+.single-blog{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.blog-content{
+	padding-left: 55px;
+}
+.brand-active .slick-dots li button{
+	width: 40px;
+}
+.footer-header h3 {
+	font-size: 20px;
+}
+.footer-search form button {
+	right: -7px;
+}
+
+
 
 }
 
@@ -15,6 +50,116 @@
 /* Tablet desktop(md) :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+.main-menu ul li {
+    margin: 0 6px;
+}
+.main-menu ul li a {
+    font-size: 11px;
+}
+.slider-content span{
+    font-size: 20px;
+}
+.slider-content h2 {
+    font-size: 40px;
+}
+.slider-content a{
+    font-size: 12px;
+    padding: 14px 40px;
+
+}
+.services-content {
+	margin-bottom: 50px;
+}
+.protfolio-icon a {
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.protfolio-text {
+	top: 65px;
+}
+.protfolio-text a {
+	margin-bottom: 5px;
+}
+.btn-down {
+	font-size: 12px;
+	padding: 15px 35px;
+}
+.protfolio-menu button {
+	font-size: 13px;
+}
+.section-title h4 {
+	font-size: 20px;
+}
+.about-img a {
+	display: block;
+	margin-bottom: 80px;
+}
+.about-img a::before {
+	top: 133px;
+	right: -88px;
+}
+.about-content p {
+	padding: 0 30px;
+}
+.p-header h4 {
+	font-size: 14px;
+}
+.progress {
+	height: 5px;
+}
+.p-header h4 {
+	margin-bottom: 8px;
+}
+.skill-img img {
+	margin-top: -50px;
+}
+.single-creative > a::before {
+	top: 145px;
+}
+.creative-info h4 {
+	font-size: 10px;
+	letter-spacing: 1.2px;
+}
+.creative-info span {
+	font-size: 10px;
+	letter-spacing: 1.2px;
+}
+.creative-icon a {
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.test-img img{
+	margin-top: 75px;
+}
+.single-blog{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.blog-content{
+	padding-left: 30px;
+}
+.brand-active .slick-dots li button{
+	width: 40px;
+}
+.footer-contact {
+	margin-bottom: 50px;
+}
+.footer-header h3 {
+	font-size: 18px;
+}
+.footer-same.footer-mobile-position {
+	margin-left: 40px;
+}
+.main-menu ul li ul.submenu {
+	width: 180px;
+}
+.main-menu ul li ul.submenu li ul.submenu {
+	left: 180px;
+}
 
 }
 
@@ -22,12 +167,303 @@
 /* small mobile(xs) :320px. */
 @media (max-width: 767px) {
 
+.slider-content span{
+    font-size: 18px;
+}
+.slider-content h2 {
+    font-size: 35px;
+}
+.slider-content a{
+    font-size: 12px;
+    padding: 14px 40px;
 
+}
+.services-content {
+	margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.protfolio-menu button {
+	font-size: 9px;
+	padding: 9px 10px;
+	margin: 0 2px;
+}
+.protfolio-icon a {
+	font-size: 13px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.protfolio-text {
+	top: 45px;
+}
+.btn-down {
+	font-size: 11px;
+	padding: 13px 30px;
+}
+.section-title h4 {
+	font-size: 18px;
+}
+.section-title p {
+	font-size: 14px;
+	line-height: 1.8;
+	padding: 0 30px;
+}
+.protfolio-area {
+	padding-top: 100px;
+}
+.section-title {
+	margin-bottom: 30px;
+}
+.protfolio-text a {
+	font-size: 11px;
+}
+.protfolio-text span {
+	font-size: 11px;
+}
+.about-img a {
+	display: block;
+	margin-bottom: 80px;
+}
+.about-img a::before {
+	top: 112px;
+	right: -74px;
+	width: 252px;
+	height: 7px;
+}
+.p-header h4 {
+	font-size: 14px;
+}
+.progress {
+	height: 5px;
+}
+.p-header h4 {
+	margin-bottom: 8px;
+}
+.progress-active {
+	padding-top: 30px;
+}
+.skill-img img {
+	margin-left: 45px;
+}
+.single-creative > a::before {
+	top: 270px;
+}
+.section-title.font {
+	margin-bottom: 80px;
+}
+.creative-content {
+	top: 88%;
+}
+.creative-info h4 {
+	letter-spacing: 1.2px;
+}
+.creative-info span {
+	letter-spacing: 1.2px;
+}
+.single-creative {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.creative-area {
+	padding-top: 50px;
+}
+.test-img img{
+	width: 100px;
+	height: auto;
+	margin-right: 10px !important;
+	margin-top: 85px;
+}
+.test-content{
+	margin-left: 120px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	padding-right: 2px;
+}
+.test-img{
+	margin-left: -20px;
+}
+.single-testimonial {
+	padding-top: 50px;
+}
+.slick-slide img{
+	display: block;
+	width: 100%;
+}
+.blog-img{
+	display: block;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.single-blog{
+	padding-right: 0;
+	margin-top: 50px;
+}
+.brand-active .slick-dots li button{
+	width: 20px;
+	height: 5px;
+}
+.newsletter-search form input{
+	height: 40px;
+}
+.footer-contact {
+	margin-bottom: 50px;
+}
+.footer-header h3 {
+	font-size: 16px;
+}
+.footer-area {
+	padding: 70px 0;
+}
+.footer-same.mobile-spacing {
+	margin-top: 50px;
+}
+.footer-search form button {
+	right: 14px;
+}
+.copyright-text p {
+	font-size: 12px;
+}
+.blog-active .slick-dots {
+	bottom: -50px;
+}
+.partners-area {
+	padding-top: 50px;
+}
+.about-area {
+	padding-top: 50px;
+}
+.blog-area {
+	padding-top: 50px;
+}
  
 }
  
 /* Large Mobile(sm) :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+.slider-content span{
+    font-size: 20px;
+}
+.slider-content h2 {
+    font-size: 40px;
+}
+.slider-content a{
+    font-size: 12px;
+    padding: 14px 40px;
+
+}
+.services-content {
+	margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.protfolio-menu button {
+	font-size: 11px;
+	padding: 11px 20px;
+}
+.protfolio-icon a {
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.protfolio-text {
+	top: 65px;
+}
+.btn-down {
+	font-size: 11px;
+	padding: 13px 30px;
+}
+.section-title h4 {
+	font-size: 18px;
+}
+.section-title p {
+	font-size: 14px;
+	line-height: 1.8;
+	padding: 0 30px;
+}
+.protfolio-area {
+	padding-top: 100px;
+}
+.about-img a {
+	display: block;
+	margin-bottom: 80px;
+}
+.about-img a::before {
+	top: 111px;
+	right: -75px;
+}
+.about-content p {
+	padding: 0 30px;
+}
+.p-header h4 {
+	font-size: 14px;
+}
+.progress {
+	height: 5px;
+}
+.p-header h4 {
+	margin-bottom: 8px;
+}
+.creative-info h4 {
+	font-size: 10px;
+	letter-spacing: 1.2px;
+}
+.creative-info span {
+	font-size: 10px;
+	letter-spacing: 1.2px;
+}
+.creative-icon a {
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.single-creative > a::before {
+	top: 160px;
+}
+.section-title.font {
+	margin-bottom: 80px;
+}
+.creative-area {
+	padding-top: 50px;
+}
+.single-testimonial{
+	padding-top: 50px;
+}
+.slick-slide img{
+	display: block;
+	width: 100%;
+}
+.blog-img{
+	display: block;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.single-blog{
+	padding-right: 0;
+	margin-top: 50px;
+}
+.brand-active .slick-dots li button{
+	width: 40px;
+	height: 5px;
+}
+.newsletter-search form input{
+	height: 50px;
+}
+.footer-contact {
+	margin-bottom: 50px;
+}
+.footer-header h3 {
+	font-size: 18px;
+}
+.footer-area {
+	padding: 70px 0;
+}
+.footer-search form button {
+	right: -3px;
+}
  
 }

@@ -7,7 +7,7 @@
 	// Mobile-menu
 	$('#mobile-menu').meanmenu({
 		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "991",
+		meanScreenWidth: "767",
 	});
 	
 	// aos
@@ -189,7 +189,7 @@
 	mainSlider();
 
 	// latest blog slider active
-	$('.blog-active').slick({
+	$('.blog-activ').slick({
 		autoplay: true,
 		infinite: true,
 		slidesToShow: 2,
@@ -208,6 +208,7 @@
 	        infinite: true,
 	      }
 	    }
+		
 	  ]
 	});
 	// Blog post slider active
@@ -265,6 +266,48 @@
 	  ]
 	});
 
+
+	// brand slider active
+	$('.blog-active').slick({
+		autoplay: true,
+		infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		dots: true,
+		arrows: false,
+		autoplaySpeed: 1000,
+		responsive: [
+		{
+			breakpoint: 1199,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true,
+			}
+		},
+		{
+			breakpoint: 991,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 767,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 400,
+			settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+			}
+		}
+		]
+	});
 	// author-review active
 	$('.author-review-active').slick({
 		autoplay: true,
@@ -294,27 +337,25 @@
 	        infinite: true,
 	      }
 	    },
+		{
+			breakpoint: 991,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  infinite: true,
+			}
+		  },
 	    {
 	      breakpoint: 767,
 	      settings: {
 	        infinite: true,
 	        arrows: false,
+			slidesToShow: 1,
+			slidesToScroll: 1,
 	      }
 	    },
 	  ]
 	});
-/*---------------------------------------------------------------------------------------
-	Barfiller Progress Bar Active
------------------------------------------------------------------------------------------*/
-    $(window).on('scroll', function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 850) {
-            $('#bar1').barfiller();
-            $('#bar2').barfiller();
-            $('#bar3').barfiller();
-            $('#bar4').barfiller();
-        }
-    });
 /*---------------------------------------------------------------------------------------
 	Isotope Filter Active
 -----------------------------------------------------------------------------------------*/
@@ -354,18 +395,18 @@
 		type: 'iframe'
 	});
 /*---------------------------------------------------------------------------------------
-	Scroll to top Active
+    Scroll to top Active
 -----------------------------------------------------------------------------------------*/
-    $.scrollUp({
-        scrollName: 'scrollUp', // Element ID
-        topDistance: '300', // Distance from top before showing element (px)
-        topSpeed: 300, // Speed back to top (ms)
-        animation: 'fade', // Fade, slide, none
-        animationInSpeed: 200, // Animation in speed (ms)
-        animationOutSpeed: 200, // Animation out speed (ms)
-        scrollText: '<span class="ti-angle-up"></span>', // Text for element
-        activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-    });
+	$.scrollUp({
+		scrollName: 'scrollUp', // Element ID
+		topDistance: '300', // Distance from top before showing element (px)
+		topSpeed: 300, // Speed back to top (ms)
+		animation: 'fade', // Fade, slide, none
+		animationInSpeed: 200, // Animation in speed (ms)
+		animationOutSpeed: 200, // Animation out speed (ms)
+		scrollText: '<span><i class="fa-brands fa-studiovinari"></i></span>', // Text for element
+		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+	});
 /*---------------------------------------------------------------------------------------
 	AOS Animation Active
 -----------------------------------------------------------------------------------------*/
